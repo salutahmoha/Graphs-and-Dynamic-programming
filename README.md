@@ -24,3 +24,8 @@ Graphs can be represented in various ways in memory:
 Adjacency Matrix: A 2D array where matrix[i][j] is 1 (or weight) if there is an edge between vertices i and j.  
 Adjacency List: An array or list where each vertex stores a list of its neighbors. This is space-efficient for sparse graphs.  
 Edge List: A simple list of edges where each edge is represented as a pair (or triplet for weighted graphs) of vertices.  
+
+
+# Dynamic Programming (DP)
+Dynamic Programming (DP) is a problem-solving paradigm used for optimization and decision-making. It is especially useful for problems where a solution can be composed of solutions to overlapping subproblems.
+
