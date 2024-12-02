@@ -29,3 +29,34 @@ Edge List: A simple list of edges where each edge is represented as a pair (or t
 # Dynamic Programming (DP)
 Dynamic Programming (DP) is a problem-solving paradigm used for optimization and decision-making. It is especially useful for problems where a solution can be composed of solutions to overlapping subproblems.
 
+## Core Principles of DP
+### Optimal Substructure:
+ The solution to a problem can be constructed using solutions to its subproblems.  
+Example: In finding the shortest path in a graph, the shortest path to a destination vertex depends on the shortest path to its neighbors.
+Overlapping Subproblems: The problem can be broken down into subproblems that are solved multiple times.  
+Example: In Fibonacci sequence calculation, the value of Fib(n) relies on Fib(n-1) and Fib(n-2).
+DP Techniques  
+### Top-Down Approach (Memoization):
+Problems are solved recursively, and results of subproblems are stored (memoized) to avoid redundant computations.
+Example: Recursive Fibonacci with memoization.
+### Bottom-Up Approach (Tabulation):
+Problems are solved iteratively starting from the smallest subproblem, and results are stored in a table to build the solution step-by-step.
+Example: Iterative Fibonacci using an array to store values.
+Applications of Dynamic Programming
+## Optimization Problems:
+1.Knapsack Problem: Maximizing the value of items that can fit in a knapsack of fixed capacity.  
+2.Matrix Chain Multiplication: Finding the most efficient way to multiply a series of matrices.  
+3.Sequence Problems:  
+Longest Common Subsequence (LCS): Finding the longest subsequence common to two sequences.  
+4.Longest Increasing Subsequence (LIS): Finding the longest subsequence where each element is larger than the previous one.  
+5.Pathfinding in Graphs:  
+Bellman-Ford Algorithm: Shortest paths in a graph with negative edge weights.    
+6.Floyd-Warshall Algorithm: Finding shortest paths between all pairs of vertices.  
+7.Game Theory Problems:  
+Solving games like coin-picking or chess endgames.
+
+## References
+.Introduction to Graph Theory  
+.Dynamic Programming  
+.Dijkstra's Algorithm  
+.Bellman-Ford Algorithm
