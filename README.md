@@ -1,2 +1,2 @@
-# Graphs-and-Dynamic-programming
-This is a repository explain well about Graphs; Directed Vs Undirected graphs, weighted Vs Unweighted graphs. Dynamic Programing
+# Graphs
+Graphs are a versatile and fundamental data structure used to represent a set of objects (nodes or vertices) connected by relationships (edges). They are widely used in computer science to model real-world systems such as social networks, transportation maps, communication networks, and more. Graphs can be classified based on their properties:
